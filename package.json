@@ -37,7 +37,8 @@
     "test": "bun test",
     "pretest": "bun run type-check",
     "test:types": "tsd",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "axios": "^1.7.7"
